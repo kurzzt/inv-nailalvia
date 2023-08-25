@@ -43,13 +43,10 @@ export default function DesktopRightWelcoming() {
         const audioElement = audioRef.current;
 
         if (audioElement) {
-            console.log("berhasil kena")
             if (music) {
                 audioElement.pause();
-                console.log("berhasil pause")
             } else {
                 audioElement.play();
-                console.log("berhasil play")
             }
         }
 
